@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CapySleep - Sleep Tracking</title>
+    <meta
+      name="description"
+      content="CapySleep official pages for support, privacy policy, and terms of use."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header container">
+      <a class="brand" href="./index.html">CapySleep</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a class="active" href="./index.html">Home</a>
+        <a href="./privacy.html">Privacy</a>
+        <a href="./terms.html">Terms</a>
+        <a href="./support.html">Support</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <p class="eyebrow">Sleep Tracking App</p>
+        <h1>CapySleep GitHub Pages</h1>
+        <p>
+          Official legal and support pages for CapySleep. Use these links for
+          App Store Connect and in-app references.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="./support.html">Get App Support</a>
+          <a class="button secondary" href="./privacy.html"
+            >Read Privacy Policy</a
+          >
+        </div>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h3>Privacy Policy</h3>
+          <p>How CapySleep handles Health and usage data.</p>
+          <p><a href="./privacy.html">Open privacy page</a></p>
+        </article>
+        <article class="card">
+          <h3>Terms of Use</h3>
+          <p>Rules and conditions for using CapySleep.</p>
+          <p><a href="./terms.html">Open terms page</a></p>
+        </article>
+        <article class="card">
+          <h3>App Support</h3>
+          <p>Support contact and troubleshooting details.</p>
+          <p><a href="./support.html">Open support page</a></p>
+        </article>
+      </section>
+
+      <section class="card policy-links">
+        <h2>URLs for App Store Connect</h2>
+        <p>
+          Once GitHub Pages is enabled, these links become the full public URLs
+          you can submit.
+        </p>
+        <div class="url-row">
+          <span class="url-label">Privacy Policy URL</span>
+          <a id="privacy-url" href="./privacy.html">./privacy.html</a>
+        </div>
+        <div class="url-row">
+          <span class="url-label">App Support URL</span>
+          <a id="support-url" href="./support.html">./support.html</a>
+        </div>
+        <p class="small">
+          Example pattern: https://your-username.github.io/capysleep/privacy.html
+        </p>
+      </section>
+    </main>
+
+    <footer class="container">
+      <p>CapySleep</p>
+    </footer>
+
+    <script>
+      (function () {
+        const base = new URL("./", window.location.href);
+        const privacyUrl = new URL("privacy.html", base).href;
+        const supportUrl = new URL("support.html", base).href;
+
+        const privacyLink = document.getElementById("privacy-url");
+        const supportLink = document.getElementById("support-url");
+
+        privacyLink.textContent = privacyUrl;
+        privacyLink.href = privacyUrl;
+        supportLink.textContent = supportUrl;
+        supportLink.href = supportUrl;
+      })();
+    </script>
+  </body>
+</html>
