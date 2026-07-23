@@ -244,12 +244,46 @@ p:last-child {
 
 .page ul {
   margin: 0.45rem 0 0;
-  padding-left: 1.2rem;
+  padding-left: 1.35rem;
   color: var(--text-dim);
+  list-style-position: outside;
+}
+
+/*
+  Ordered-list numbers are drawn in-flow via counters.
+  Native outside markers hang past the list box and get clipped on narrow viewports.
+*/
+.page ol {
+  list-style: none;
+  counter-reset: support-step;
+  margin: 0.45rem 0 0;
+  padding-left: 0;
+  color: var(--text-dim);
+}
+
+.page ol > li {
+  counter-increment: support-step;
+  position: relative;
+  padding-left: 2.15rem;
+}
+
+.page ol > li::before {
+  content: counter(support-step) ".";
+  position: absolute;
+  left: 0;
+  width: 1.85rem;
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+  color: inherit;
 }
 
 .page li {
   margin: 0.35rem 0;
+}
+
+.page li > ul {
+  margin-top: 0.35rem;
+  padding-left: 1.2rem;
 }
 
 .page li strong {
@@ -298,6 +332,11 @@ footer::before {
 
 /* Responsive */
 @media (max-width: 600px) {
+  .container {
+    /* Extra side inset so list markers/numbers stay clear of the screen edge */
+    width: min(var(--max-width), calc(100% - 2.75rem));
+  }
+
   .home-icon {
     width: 96px;
     height: 96px;
