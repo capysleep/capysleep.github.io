@@ -23,7 +23,7 @@
   <main class="container">
     <article class="page">
       <h1>Privacy Policy</h1>
-      <p class="page-meta">Last updated: July 22, 2026</p>
+      <p class="page-meta">Last updated: August 2, 2026</p>
 
       <section>
         <h2>1. Who This Policy Covers</h2>
@@ -69,10 +69,33 @@
             sync.
           </li>
           <li>
+            <strong>Apple Music / Media Library:</strong> If you grant access and use
+            CapySleep Pro features that need it, CapySleep can let you choose tracks from
+            your Apple Music or iTunes library as sleep-aid or alarm sounds. Track
+            selection happens on your device through Apple’s media frameworks. We do not
+            upload your music library to a developer-operated server.
+          </li>
+          <li>
             <strong>CapySleep-generated app data:</strong> Manual sleep and nap sessions,
             audio recordings, journal entries, optional profile fields, reminders, and
             preferences are stored locally and may sync through your private iCloud if
             you enable iCloud sync.
+          </li>
+          <li>
+            <strong>Purchases and subscription status:</strong> If you buy CapySleep Pro,
+            Apple processes the transaction through the App Store. CapySleep verifies
+            whether Pro is active on your device using Apple StoreKit. We do not receive
+            your payment card number, billing address, or Apple ID password, and we do
+            not operate a developer server that stores your purchase history together
+            with your sleep, health, journal, or audio data.
+          </li>
+          <li>
+            <strong>Free-plan usage counter:</strong> To enforce Free-plan session limits
+            on this device, CapySleep may store a small lifetime counter in the iOS
+            Keychain. That counter is a usage floor only—it does not contain sleep
+            content, health samples, microphone audio, journal text, or payment details.
+            It can persist after you erase local app data or reinstall CapySleep on the
+            same device. A full device erase or Keychain reset removes it.
           </li>
         </ul>
         <p>
@@ -82,18 +105,59 @@
       </section>
 
       <section>
-        <h2>3. Legal Basis and Consent</h2>
+        <h2>3. Purchases and CapySleep Pro</h2>
+        <p>
+          CapySleep Pro is an optional auto-renewable subscription sold through Apple’s
+          App Store. Apple is the merchant of record for the purchase. CapySleep does
+          not run its own checkout, payment processor, or subscription account system.
+        </p>
+        <ul>
+          <li>
+            <strong>What we receive:</strong> CapySleep does not receive your full
+            payment details. The app checks subscription status on your device through
+            Apple StoreKit so it can unlock Pro features while your subscription is
+            active.
+          </li>
+          <li>
+            <strong>What stays on your device:</strong> StoreKit may keep signed
+            entitlement information locally on your iPhone so Pro access can work
+            offline after a valid purchase. CapySleep may also store a limited local
+            snapshot of your active subscription period to bridge brief StoreKit sync
+            delays. This snapshot is used only to determine feature access, is cleared
+            when StoreKit reports no active entitlement, and is not uploaded to a
+            developer-operated server. Separately, the Free-plan session usage counter
+            described above may remain in Keychain so Free limits cannot be reset by
+            deleting sessions or reinstalling the app on the same device.
+          </li>
+          <li>
+            <strong>What we do not do:</strong> We do not link App Store purchase
+            records to your sleep, Health, motion, microphone, journal, or iCloud data
+            on a developer-operated server because CapySleep has no such server.
+          </li>
+          <li>
+            <strong>App Store Connect:</strong> Apple may provide the developer with
+            aggregated or de-identified sales and subscription reporting through App
+            Store Connect. That reporting is separate from the health and wellness
+            content you create in the app.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>4. Legal Basis and Consent</h2>
         <p>
           Where required by law (e.g., GDPR), we process your data based on your
-          consent when you grant permissions (Health, Motion, Microphone) and when you
-          optionally enter profile data. You may withdraw consent by revoking
-          permissions in iOS Settings and by erasing app data in Settings &gt; Manage
-          Data.
+          consent when you grant permissions (Health, Motion, Microphone, and Media
+          Library / Apple Music when you use those features) and when you optionally
+          enter profile data. You may withdraw consent by revoking permissions in iOS
+          Settings and by erasing app data in Settings &gt; Manage Data. Erasing local
+          app data removes CapySleep-generated content from the app container; the
+          Free-plan Keychain usage counter may remain on the device as described above.
         </p>
       </section>
 
       <section>
-        <h2>4. Storage and iCloud</h2>
+        <h2>5. Storage and iCloud</h2>
         <p>
           CapySleep does not operate a server or account system. By default, your data
           stays on your device. If you enable "Sync CapySleep Data with iCloud" in
@@ -109,19 +173,21 @@
       </section>
 
       <section>
-        <h2>5. Data Retention and Deletion</h2>
+        <h2>6. Data Retention and Deletion</h2>
         <p>
           Data is kept until you delete it. In Settings &gt; Manage Data you can export
           sleep data, erase recordings, erase local app data, delete CapySleep data from
           your private iCloud database, or erase both local and iCloud data. Deleting
           iCloud data turns sync off. Apple Health data is not deleted; manage it in the
           Health app. If you keep local data and later re-enable iCloud sync, that local
-          data may upload again.
+          data may upload again. Erasing local app data removes CapySleep-generated
+          content from the app container, but the Free-plan Keychain usage counter may
+          remain on the device as described above.
         </p>
       </section>
 
       <section>
-        <h2>6. Your Rights</h2>
+        <h2>7. Your Rights</h2>
         <p>
           Depending on your location, you may have the right to access, correct,
           delete, or export your data. You can do this in the app via Settings &gt;
@@ -132,17 +198,18 @@
       </section>
 
       <section>
-        <h2>7. Third Parties and Sharing</h2>
+        <h2>8. Third Parties and Sharing</h2>
         <p>
           We do not share your data with third parties for marketing or advertising.
-          Data may be processed by Apple (device, iCloud, Health) as part of normal
-          iOS and iCloud operation. We do not use third-party analytics or
-          advertising SDKs that track you across apps or websites.
+          Data may be processed by Apple (device, iCloud, Health, and App Store
+          billing/subscription services) as part of normal iOS and iCloud operation.
+          We do not use third-party analytics or advertising SDKs that track you
+          across apps or websites.
         </p>
       </section>
 
       <section>
-        <h2>8. Security</h2>
+        <h2>9. Security</h2>
         <p>
           We rely on iOS and iCloud security to protect your data. Data on your device
           is stored in the app's sandbox. When iCloud is enabled, data is transmitted
@@ -152,7 +219,7 @@
       </section>
 
       <section>
-        <h2>9. Children</h2>
+        <h2>10. Children</h2>
         <p>
           CapySleep is not directed at children under 13. The app has no account system
           or developer-operated server. App data remains on the device or, if private
@@ -162,7 +229,7 @@
       </section>
 
       <section>
-        <h2>10. International Use</h2>
+        <h2>11. International Use</h2>
         <p>
           The app may be used globally. If you are in the European Economic Area, UK,
           or other regions with specific data protection laws, the rights and bases
@@ -172,7 +239,7 @@
       </section>
 
       <section>
-        <h2>11. Changes to This Policy</h2>
+        <h2>12. Changes to This Policy</h2>
         <p>
           We may update this Privacy Policy. The "Last updated" date at the top will
           change when we do. We encourage you to review the policy periodically.
@@ -181,7 +248,7 @@
       </section>
 
       <section>
-        <h2>12. Contact</h2>
+        <h2>13. Contact</h2>
         <p>
           For questions about these Terms of Use or this Privacy Policy, contact us
           through "Report a Problem" in Settings or at
