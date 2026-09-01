@@ -4,37 +4,400 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CapySleep</title>
+  <title>CapySleep — Calm sleep tracking for iPhone</title>
   <meta name="description"
-    content="CapySleep is a calm sleep tracking app for iOS with a capybara companion." />
-  <link rel="icon" type="image/png" href="./appicon.png" />
-  <link rel="apple-touch-icon" href="./appicon.png" />
+    content="CapySleep is a calm iOS sleep companion: Apple Health nights, optional on-device sleep and naps, sleep-aid sounds, a journal, and a capybara that reflects how you slept. No CapySleep account." />
+  <link rel="canonical" href="https://capysleep.github.io/" />
+  <meta name="theme-color" content="#1a1f2e" />
+  <meta name="apple-itunes-app" content="app-id=6758862727" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="CapySleep" />
+  <meta property="og:url" content="https://capysleep.github.io/" />
+  <meta property="og:title" content="CapySleep — Calm sleep tracking for iPhone" />
+  <meta property="og:description"
+    content="Understand your nights with a capybara companion. Apple Health, optional on-device tracking, sounds, and a journal — with no CapySleep account." />
+  <meta property="og:image" content="https://capysleep.github.io/appicon.png" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@capysleepzzz" />
+  <link rel="icon" type="image/png" href="./icon.png" />
+  <link rel="apple-touch-icon" href="./icon.png" />
   <link rel="stylesheet" href="./styles.css" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MobileApplication",
+      "name": "CapySleep",
+      "url": "https://capysleep.github.io/",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "iOS 26.0 or later",
+      "downloadUrl": "https://apps.apple.com/app/id6758862727",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Marc Allen Lopez"
+      }
+    }
+  </script>
 </head>
 
-<body>
-  <main class="container home">
-    <img class="home-icon" src="./appicon.png" alt="CapySleep app icon" />
-    <h1 class="home-title">
-      CapySleep
-      <span class="home-zzz" aria-hidden="true">
-        <span class="zzz zzz-1">Z</span>
-        <span class="zzz zzz-2">z</span>
-        <span class="zzz zzz-3">z</span>
-      </span>
-    </h1>
-    <p>
-      A calmer way to understand your nights and build healthier sleep habits
-      with a capybara companion.
-    </p>
+<body class="lp-body">
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="lp-nav">
+    <div class="lp-nav-inner">
+      <a class="lp-brand" href="./index.html">
+        <img src="./icon.png" width="40" height="40" alt="" />
+        CapySleep
+      </a>
+      <nav class="lp-nav-links" aria-label="Primary">
+        <a href="#features">Features</a>
+        <a href="#privacy">Privacy</a>
+        <a href="./support.html">Support</a>
+        <a class="lp-follow" href="https://x.com/capysleepzzz" rel="noopener noreferrer"
+          aria-label="Follow us on X">
+          <span class="lp-follow-label">Follow us on</span>
+          <svg class="lp-follow-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path fill="currentColor"
+              d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.727-8.835L1.254 2.25H8.08l4.253 5.622L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z" />
+          </svg>
+        </a>
+        <a class="btn btn-nav" href="https://apps.apple.com/app/id6758862727" rel="noopener noreferrer">Get the app</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="lp-hero">
+      <div class="lp-hero-copy">
+        <p class="lp-eyebrow">iOS sleep companion</p>
+        <h1>
+          Understand your
+          <span class="home-title">
+            nights
+            <span class="home-zzz" aria-hidden="true">
+              <span class="zzz zzz-1">Z</span>
+              <span class="zzz zzz-2">z</span>
+              <span class="zzz zzz-3">z</span>
+            </span>
+          </span>
+        </h1>
+        <p class="lp-lead">
+          CapySleep is a calmer way to see Apple Health nights, optional on-device
+          sleep and naps, and a capybara that reflects how you slept — with no
+          CapySleep account.
+        </p>
+        <div class="lp-cta-row">
+          <a class="btn btn-store" href="https://apps.apple.com/app/id6758862727" rel="noopener noreferrer">
+            <svg class="btn-store-logo" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path fill="currentColor"
+                d="M16.37 12.64c-.03-2.16 1.77-3.2 1.85-3.25-1.01-1.48-2.58-1.68-3.14-1.7-1.34-.14-2.61.79-3.29.79-.68 0-1.73-.77-2.85-.75-1.47.02-2.82.85-3.58 2.17-1.53 2.65-.39 6.57 1.1 8.72.73 1.05 1.6 2.23 2.74 2.19 1.1-.05 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.07 2.66-2.13.84-1.22 1.18-2.4 1.2-2.46-.03-.01-2.3-.88-2.33-3.5zM14.5 6.9c.61-.74 1.02-1.76.91-2.78-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7 1.03.08 2.08-.52 2.58-1.24z" />
+            </svg>
+            <span class="btn-store-text">
+              <span class="btn-store-kicker">Download on the</span>
+              <span class="btn-store-name">App Store</span>
+            </span>
+          </a>
+          <a class="btn btn-ghost" href="#features">See how it works</a>
+        </div>
+        <p class="lp-fine">Requires iOS 26 or later. Wellness estimates, not a sleep lab.</p>
+      </div>
+      <div class="lp-hero-visual">
+        <figure class="phone phone-hero">
+          <div class="phone-body">
+            <span class="phone-btn phone-btn-silent" aria-hidden="true"></span>
+            <span class="phone-btn phone-btn-vol-up" aria-hidden="true"></span>
+            <span class="phone-btn phone-btn-vol-down" aria-hidden="true"></span>
+            <span class="phone-btn phone-btn-power" aria-hidden="true"></span>
+            <div class="phone-screen">
+              <img src="./web-images/web/home.jpg" width="900" height="1951" fetchpriority="high"
+                alt="CapySleep Home with weekly sleep rings and a capybara companion" />
+              <span class="phone-island" aria-hidden="true"></span>
+            </div>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="lp-facts" aria-label="What CapySleep is">
+      <ul>
+        <li>
+          <span class="lp-fact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+              stroke-linecap="round" stroke-linejoin="round">
+              <rect x="7" y="2.5" width="10" height="19" rx="2.4" />
+              <path d="M11 18.5h2" />
+            </svg>
+          </span>
+          <strong>On your iPhone</strong>
+          Motion and audio estimates stay on-device. Optional private iCloud.
+        </li>
+        <li>
+          <span class="lp-fact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+              stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="8" r="3.25" />
+              <path d="M5.2 19c.9-3.1 3.3-4.75 6.8-4.75 1.2 0 2.3.2 3.3.6" />
+              <path d="M4 4l16 16" />
+            </svg>
+          </span>
+          <strong>No account</strong>
+          No CapySleep sign-in and no developer-operated server.
+        </li>
+        <li>
+          <span class="lp-fact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path
+                d="M12 19.5s-6.5-4.1-6.5-8.6C5.5 8.4 7.3 6.5 9.4 6.5c1.3 0 2.2.7 2.6 1.6.4-.9 1.3-1.6 2.6-1.6 2.1 0 3.9 1.9 3.9 4.4 0 4.5-6.5 8.6-6.5 8.6z" />
+            </svg>
+          </span>
+          <strong>Health + manual nights</strong>
+          Apple Health sleep, overnight sessions, and naps in one place.
+        </li>
+        <li>
+          <span class="lp-fact-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"
+              stroke-linecap="round" stroke-linejoin="round">
+              <ellipse cx="12" cy="13.2" rx="7.5" ry="6.2" />
+              <path d="M8.2 12.4c.4-1 1.2-1 1.6 0" />
+              <path d="M14.2 12.4c.4-1 1.2-1 1.6 0" />
+              <path d="M10.6 15.4c.5.5 1.1.7 1.4.7s.9-.2 1.4-.7" />
+            </svg>
+          </span>
+          <strong>Companion, not a clinic</strong>
+          Your capybara reflects how you slept. Capy Score is a wellness summary.
+        </li>
+      </ul>
+    </section>
+
+    <section class="lp-intro" id="features">
+      <p class="lp-eyebrow">The app</p>
+      <h2>Nights, naps, sounds, and a journal</h2>
+      <p>
+        Start overnight sleep or a power nap from the app. Optional on-device
+        motion estimates while your phone is on the mattress, plus an optional
+        microphone for nighttime sound events. Wind down with sleep-aid sounds,
+        then write how you felt.
+      </p>
+    </section>
+
+    <div class="lp-gallery lp-gallery-3">
+      <figure class="phone">
+        <div class="phone-body">
+          <span class="phone-btn phone-btn-silent" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-up" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-down" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-power" aria-hidden="true"></span>
+          <div class="phone-screen">
+            <img src="./web-images/web/sleep_track.jpg" width="900" height="1951" loading="lazy"
+              alt="Tonight’s Sleep with a Start button, alarm, recording, and sleep-aid controls" />
+            <span class="phone-island" aria-hidden="true"></span>
+          </div>
+        </div>
+      </figure>
+      <figure class="phone">
+        <div class="phone-body">
+          <span class="phone-btn phone-btn-silent" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-up" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-down" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-power" aria-hidden="true"></span>
+          <div class="phone-screen">
+            <img src="./web-images/web/nap_track.jpg" width="900" height="1951" loading="lazy"
+              alt="Power Nap Start card with a 20-minute reset and sleep-aid controls" />
+            <span class="phone-island" aria-hidden="true"></span>
+          </div>
+        </div>
+      </figure>
+      <figure class="phone">
+        <div class="phone-body">
+          <span class="phone-btn phone-btn-silent" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-up" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-down" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-power" aria-hidden="true"></span>
+          <div class="phone-screen">
+            <img src="./web-images/web/journal_write.jpg" width="900" height="1951" loading="lazy"
+              alt="Journal entry with mood chips, handwritten notes, and Sage theme" />
+            <span class="phone-island" aria-hidden="true"></span>
+          </div>
+        </div>
+      </figure>
+    </div>
+
+    <section class="lp-feature">
+      <p class="lp-eyebrow">Insights</p>
+      <h2>See how the night unfolded</h2>
+      <p>
+        Review hypnograms, stage breakdowns, and Capy Score — a wellness summary,
+        not a clinical score. Related heart rate, HRV, and blood oxygen can appear
+        when you allow Apple Health.
+      </p>
+    </section>
+
+    <div class="lp-gallery lp-gallery-3">
+      <figure class="phone">
+        <div class="phone-body">
+          <span class="phone-btn phone-btn-silent" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-up" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-down" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-power" aria-hidden="true"></span>
+          <div class="phone-screen">
+            <img src="./web-images/web/sleep_detail.jpg" width="900" height="1956" loading="lazy"
+              alt="Sleep stages hypnogram and time asleep versus time in bed" />
+            <span class="phone-island" aria-hidden="true"></span>
+          </div>
+        </div>
+      </figure>
+      <figure class="phone">
+        <div class="phone-body">
+          <span class="phone-btn phone-btn-silent" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-up" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-down" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-power" aria-hidden="true"></span>
+          <div class="phone-screen">
+            <img src="./web-images/web/sleep_score.jpg" width="900" height="1956" loading="lazy"
+              alt="Capy Score wellness summary with duration, bedtime, interruptions, and mood" />
+            <span class="phone-island" aria-hidden="true"></span>
+          </div>
+        </div>
+      </figure>
+      <figure class="phone">
+        <div class="phone-body">
+          <span class="phone-btn phone-btn-silent" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-up" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-down" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-power" aria-hidden="true"></span>
+          <div class="phone-screen">
+            <img src="./web-images/web/heart_view.jpg" width="900" height="1956" loading="lazy"
+              alt="Overnight heart-rate graph and summary cards from Apple Health" />
+            <span class="phone-island" aria-hidden="true"></span>
+          </div>
+        </div>
+      </figure>
+    </div>
+
+    <section class="lp-feature">
+      <p class="lp-eyebrow">Always nearby</p>
+      <h2>Widgets and Live Activities</h2>
+      <p>
+        Keep an active sleep or power nap session on Lock Screen and Home Screen,
+        then open a summary of the latest night.
+      </p>
+    </section>
+
+    <div class="lp-gallery lp-gallery-2">
+      <figure class="phone">
+        <div class="phone-body">
+          <span class="phone-btn phone-btn-silent" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-up" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-down" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-power" aria-hidden="true"></span>
+          <div class="phone-screen">
+            <img src="./web-images/web/live_activity.jpg" width="900" height="1951" loading="lazy"
+              alt="Power Nap Live Activity on the Lock Screen with timer and sleep-aid playback" />
+            <span class="phone-island" aria-hidden="true"></span>
+          </div>
+        </div>
+      </figure>
+      <figure class="phone">
+        <div class="phone-body">
+          <span class="phone-btn phone-btn-silent" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-up" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-vol-down" aria-hidden="true"></span>
+          <span class="phone-btn phone-btn-power" aria-hidden="true"></span>
+          <div class="phone-screen">
+            <img src="./web-images/web/widget.jpg" width="900" height="1951" loading="lazy"
+              alt="Latest Sleep Session widget preview with Add Widget" />
+            <span class="phone-island" aria-hidden="true"></span>
+          </div>
+        </div>
+      </figure>
+    </div>
+
+    <section class="lp-split" id="privacy">
+      <div>
+        <p class="lp-eyebrow">On-device first</p>
+        <h2>Your nights stay on your iPhone</h2>
+        <p>
+          CapySleep has no account and no developer-operated backend. Data stays
+          on your device by default. iCloud sync is opt-in and uses your private
+          CloudKit container. Apple Health samples are not included in that sync.
+        </p>
+        <p>
+          We do not sell personal or health data, and we do not use it for
+          advertising or cross-app tracking.
+        </p>
+        <p>
+          <a href="./privacy.html">Read the Privacy Policy</a>
+        </p>
+      </div>
+      <div>
+        <p class="lp-eyebrow">CapySleep Pro</p>
+        <h2>Keep the library and history going</h2>
+        <p>
+          Free includes 3 sleep-aid sounds, 3 journal entries, and 3 saved sleep
+          or nap sessions, plus basic sleep views. Pro unlocks the full sound
+          library, Apple Music tracks, full Sleep Detail, unlimited history and
+          journal entries, and recurring schedules.
+        </p>
+        <p>
+          Pro is an optional annual subscription billed by Apple. The price shown
+          in the app is for your region. Deleting the app does not cancel the plan.
+        </p>
+        <p>
+          <a href="./support.html#capysleep-pro">How Pro works</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="lp-close">
+      <img class="lp-close-icon" src="./icon.png" width="72" height="72" alt="" />
+      <h2>Sleep with a calmer companion</h2>
+      <p>
+        Get CapySleep on iPhone. Name your capybara, grant only the permissions
+        you want, and start from Apple Health or a manual night.
+      </p>
+      <a class="btn btn-store" href="https://apps.apple.com/app/id6758862727" rel="noopener noreferrer">
+        <svg class="btn-store-logo" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <path fill="currentColor"
+            d="M16.37 12.64c-.03-2.16 1.77-3.2 1.85-3.25-1.01-1.48-2.58-1.68-3.14-1.7-1.34-.14-2.61.79-3.29.79-.68 0-1.73-.77-2.85-.75-1.47.02-2.82.85-3.58 2.17-1.53 2.65-.39 6.57 1.1 8.72.73 1.05 1.6 2.23 2.74 2.19 1.1-.05 1.52-.71 2.85-.71 1.33 0 1.71.71 2.87.69 1.19-.02 1.94-1.07 2.66-2.13.84-1.22 1.18-2.4 1.2-2.46-.03-.01-2.3-.88-2.33-3.5zM14.5 6.9c.61-.74 1.02-1.76.91-2.78-.88.04-1.94.59-2.57 1.32-.56.65-1.05 1.7-.92 2.7 1.03.08 2.08-.52 2.58-1.24z" />
+        </svg>
+        <span class="btn-store-text">
+          <span class="btn-store-kicker">Download on the</span>
+          <span class="btn-store-name">App Store</span>
+        </span>
+      </a>
+      <div class="lp-health">
+        <p>
+          CapySleep works with the Apple Health app on iPhone. When you allow
+          access, sleep you already track can appear next to optional on-device
+          nights and naps. The Health app keeps that information in one view,
+          encrypted and protected with the passcode on your iPhone.
+        </p>
+        <img class="lp-health-badge" src="./works-with-apple-health.svg" width="173"
+          height="48" alt="Works with Apple Health" />
+      </div>
+    </section>
   </main>
 
   <footer class="container">
+    <p class="lp-disclaimer">
+      CapySleep is for general wellness and informational purposes. Sleep stages,
+      Capy Score, and insights are estimates and are not intended to diagnose,
+      treat, cure, or prevent any condition. Not a medical device.
+    </p>
     <p class="footer-row">
       <a href="./privacy.html">Privacy</a>
       <a href="./terms.html">Terms</a>
       <a href="./support.html">Support</a>
       <span>© 2026 CapySleep</span>
+    </p>
+    <p class="lp-marks">
+      Apple, App Store, and iPhone are trademarks of Apple Inc., registered in
+      the U.S. and other countries.
     </p>
   </footer>
 </body>
