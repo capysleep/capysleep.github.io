@@ -670,37 +670,47 @@ footer::before {
   pointer-events: none;
 }
 
+/* iPhone 17 Pro housing positions from Apple's dimensional drawing. */
 .phone-btn-silent {
-  left: -1cqi;
-  top: 17cqi;
-  width: 1cqi;
-  height: 4.6cqi;
-  border-radius: 0.5cqi 0 0 0.5cqi;
+  left: -1.15cqi;
+  top: 20.55%;
+  width: 1.15cqi;
+  height: 4.6%;
+  border-radius: 0.55cqi 0 0 0.55cqi;
 }
 
 .phone-btn-vol-up,
 .phone-btn-vol-down {
-  left: -1cqi;
-  width: 1cqi;
-  height: 8.2cqi;
-  border-radius: 0.5cqi 0 0 0.5cqi;
+  left: -1.15cqi;
+  width: 1.15cqi;
+  height: 7.47%;
+  border-radius: 0.55cqi 0 0 0.55cqi;
 }
 
 .phone-btn-vol-up {
-  top: 27cqi;
+  top: 28.55%;
 }
 
 .phone-btn-vol-down {
-  top: 37.8cqi;
+  top: 38.02%;
 }
 
 .phone-btn-power {
-  right: -1cqi;
-  top: 31cqi;
-  width: 1cqi;
-  height: 11.4cqi;
-  border-radius: 0 0.5cqi 0.5cqi 0;
+  right: -1.15cqi;
+  top: 31.12%;
+  width: 1.15cqi;
+  height: 11.8%;
+  border-radius: 0 0.55cqi 0.55cqi 0;
   background: linear-gradient(#2c2e34, #8a8d96);
+}
+
+.phone-btn-camera {
+  right: 0;
+  top: 59.9%;
+  width: 0.7cqi;
+  height: 11.4%;
+  border-radius: 0.45cqi;
+  background: linear-gradient(#3a3d45, #1a1c21 55%, #4a4e56);
 }
 
 .lp-facts {
